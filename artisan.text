@@ -1,0 +1,54 @@
+php artisan make:migration create_recruitment_personal_date_table
+php artisan make:model RecruitmentPersonalData
+php artisan make:resource RecruitmentPersonalDataResource
+php artisan make:request RecruitmentPersonalDataRequest
+
+php artisan make:migration create_recruitment_family_structure_table
+php artisan make:model RecruitmentFamilyStructure
+php artisan make:resource RecruitmentFamilyStructureResource
+php artisan make:request RecruitmentFamilyStructureRequest
+
+php artisan make:migration create_recruitment_sibling_table
+php artisan make:model RecruitmentSibling
+php artisan make:resource RecruitmentSiblingResource
+php artisan make:request RecruitmentSiblingRequest
+
+php artisan make:migration create_recruitment_child_table
+php artisan make:model RecruitmentChild
+php artisan make:resource RecruitmentChildResource
+php artisan make:request RecruitmentChildRequest
+
+php artisan make:migration create_recruitment_formal_education_table
+php artisan make:model RecruitmentRormalEducation
+php artisan make:resource RecruitmentRormalEducationResource
+php artisan make:request RecruitmentRormalEducationRequest
+
+php artisan make:migration create_recruitment_training_table
+php artisan make:model RecruitmentTraining
+php artisan make:resource RecruitmentTrainingResource
+php artisan make:request RecruitmentTrainingRequest
+
+php artisan make:migration create_recruitment_certificate_table
+php artisan make:model RecruitmentCertificate
+php artisan make:resource RecruitmentCertificateResource
+php artisan make:request RecruitmentCertificateRequest
+
+php artisan make:migration create_recruitment_language_table
+php artisan make:model RecruitmentLanguage
+php artisan make:resource RecruitmentLanguageResource
+php artisan make:request RecruitmentLanguageRequest
+
+php artisan make:migration create_recruitment_social_activities_table
+php artisan make:model RecruitmentSocialActivities
+php artisan make:resource RecruitmentSocialActivitiesResource
+php artisan make:request RecruitmentSocialActivitiesRequest
+
+php artisan make:migration create_recruitment_leisure_activities_table
+php artisan make:model RecruitmentLeisureActivities
+php artisan make:resource RecruitmentLeisureActivitiesResource
+php artisan make:request RecruitmentLeisureActivitiesRequest
+
+php artisan make:migration create_recruitment_employment_history_table
+php artisan make:model RecruitmentEmploymentHistory
+php artisan make:resource RecruitmentEmploymentHistoryResource
+php artisan make:request RecruitmentEmploymentHistoryRequest
